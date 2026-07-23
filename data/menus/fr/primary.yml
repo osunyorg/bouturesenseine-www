@@ -16,8 +16,18 @@ items:
     descendants_targets: []
     path: "/pages/philosophie-et-vision/a-propos-de-nous"
     file: content/fr/pages/philosophie-et-vision/a-propos-de-nous/_index.html
+  - title: Ils nous soutiennent !
+    slug: ils-nous-soutiennent
+    target: "/philosophie-et-vision/ils-nous-soutiennent/"
+    kind: page
+    new_tab: false
+    children: []
+    descendants_targets: []
+    path: "/pages/philosophie-et-vision/ils-nous-soutiennent"
+    file: content/fr/pages/philosophie-et-vision/ils-nous-soutiennent/_index.html
   descendants_targets:
   - "/philosophie-et-vision/a-propos-de-nous/"
+  - "/philosophie-et-vision/ils-nous-soutiennent/"
   path: "/pages/philosophie-et-vision"
   file: content/fr/pages/philosophie-et-vision/_index.html
 - title: Actualités
@@ -74,13 +84,13 @@ items:
   descendants_targets: []
   path: "/organizations"
   file: content/fr/organizations/_index.html
-- title: Ils nous soutiennent !
-  slug: ils-nous-soutiennent
-  target: "/ils-nous-soutiennent/"
+- title: Nos services
+  slug: nos-services
+  target: "/nos-services/"
   kind: page
   new_tab: false
   children: []
   descendants_targets: []
-  path: "/pages/ils-nous-soutiennent"
-  file: content/fr/pages/ils-nous-soutiennent/_index.html
+  path: "/pages/nos-services"
+  file: content/fr/pages/nos-services/_index.html
 
