@@ -9,6 +9,12 @@ fr:
   buildFuture: true
   params:
     contact_details:
+      social_networks:
+        instagram:
+          label: >-
+            bouturesenseine
+          value: >-
+            https://instagram.com/bouturesenseine
 
   taxonomies:
     administrator: administrators
