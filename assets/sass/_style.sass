@@ -24,6 +24,11 @@
 
 // footer
 footer#document-footer
+    .footer-social
+        order: -1
+        + *
+            margin-top: $spacing-2
+
     @include media-breakpoint-up(desktop)
         .container
             align-items: center
@@ -35,6 +40,10 @@ footer#document-footer
             align-items: baseline
             display: flex
             gap: $spacing-3
+        .footer-credit
+            margin-top: 0
+
+
 
 // SECTIONS
 // home
