@@ -6,3 +6,56 @@
             figure
                 width: columns(12)
                 order: -1
+        .hero-text, h1
+            width: 100% !important
+        h1
+            align-items: baseline
+            display: flex
+            justify-content: space-between
+            span
+                @include meta
+
+// footer
+footer#document-footer
+    @include media-breakpoint-up(desktop)
+        .container
+            align-items: center
+            flex-direction: column
+            + .container
+                align-items: center
+                padding-top: 0
+        .footer-legals, .nav-legal
+            align-items: baseline
+            display: flex
+            gap: $spacing-3
+
+// SECTIONS
+// home
+.page__home
+    .hero
+        h1
+            @include sr-only
+
+    .block-chapter
+        .block-title
+            @include h2
+
+// BLOCKS
+.blocks
+    .block-chapter
+        img
+            border-radius: 20px
+
+        @include in-page-without-sidebar
+            &--with-image
+                .text,
+                figure
+                    width: columns(6)
+                figure
+                    img
+                        margin-left: 0
+                        width: 100%
+
+            &.block-class-left-image
+                figure
+                    order: -1

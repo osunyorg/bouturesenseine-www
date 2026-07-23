@@ -19,3 +19,6 @@ params:
       home:
         hero:
           desktop:  1792
+    blocks:
+      chapter:
+        desktop:  864
