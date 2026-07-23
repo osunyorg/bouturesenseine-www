@@ -1,19 +1,23 @@
 // hero
 .hero
+    h1 
+        span
+            @include meta
+
     @include media-breakpoint-up(desktop)
         .content
             flex-direction: column
             figure
                 width: columns(12)
                 order: -1
-        .hero-text, h1
-            width: 100% !important
-        h1
-            align-items: baseline
-            display: flex
-            justify-content: space-between
-            span
-                @include meta
+            .hero-text
+                margin-top: $spacing-3
+            .hero-text, h1
+                width: 100%
+            h1
+                align-items: baseline
+                display: flex
+                justify-content: space-between
 
 // footer
 footer#document-footer
