@@ -1,30 +1,31 @@
 // hero
-.hero
-    h1 
-        span
-            @include meta
+body:not(.persons__page, .organizations__page)
+    .hero
+        h1 
+            span
+                @include meta
 
-    @include media-breakpoint-up(desktop)
-        .content
-            flex-direction: column
-            figure
-                width: columns(12)
-                order: -1
-                picture
-                    margin-left: var(--grid-gutter-negative)
-                    margin-right: var(--grid-gutter-negative)
-            .hero-text
-                margin-top: $spacing-3
-            .hero-text, h1
-                width: 100%
-            h1
-                align-items: baseline
-                display: flex
-                justify-content: space-between
-                gap: var(--grid-gutter)
-                span
-                    width: columns(4)
-                    text-align: right
+        @include media-breakpoint-up(desktop)
+            .content
+                flex-direction: column
+                figure
+                    width: columns(12)
+                    order: -1
+                    picture
+                        margin-left: var(--grid-gutter-negative)
+                        margin-right: var(--grid-gutter-negative)
+                .hero-text
+                    margin-top: $spacing-3
+                .hero-text, h1
+                    width: 100%
+                h1
+                    align-items: baseline
+                    display: flex
+                    justify-content: space-between
+                    gap: var(--grid-gutter)
+                    span
+                        width: columns(4)
+                        text-align: right
 
 // footer
 footer#document-footer
